@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# update latest NextCloudPi code from github
+
+{
+  [ "$(id -u)" -ne 0 ] && { printf "Must be run as root. Try 'sudo $0'\n"; exit 1; }
+
+  BRANCH="${1:-master}"
+  [[ "$BRANCH" != "master" ]] && echo "INFO: updating to development branch '$BRANCH'"
+
+  TMPDIR="$( mktemp -d /tmp/ncp-update.XXXXXX || ( echo "Failed to create temp dir. Exiting" >&2; exit 1 ) )"
+  trap "cd /; rm -rf \"${TMPDIR}\"; exit 0" 0 1 2 3 15
+
+  echo -e "Downloading updates"
+  git clone --depth 20 -b "$BRANCH" -q https://github.com/nextcloud/nextcloudpi.git "$TMPDIR" || {
+    echo "No internet connectivity"
+    exit 1
+  }
+
+  [[ -f /.ncp-image ]] || cd "$TMPDIR"         # update locally during build
+
+  echo -e "Performing updates"
+  ./update.sh || exit 1
+
+  cd "$TMPDIR"
+  VER=$( git describe --always --tags | grep -oP "v\d+\.\d+\.\d+" )
+
+  # check format
+  grep -qP "v\d+\.\d+\.\d+" <<< "$VER" || { "Error: missing version"; exit 1; }
+
+  echo "$VER" > /usr/local/etc/ncp-version
+  echo "$VER" > /var/run/.ncp-latest-version
+
+  # write changelog
+  git log --graph --oneline --decorate \
+    --pretty=format:"[%D] %s" --date=short | \
+    grep 'tag: v' | \
+    sed '/HEAD ->\|origin/s|\[.*\(tag: v[0-9]\+\.[0-9]\+\.[0-9]\+\).*\]|[\1]|' | \
+    sed 's|* \[tag: |[|' > /usr/local/etc/ncp-changelog
+
+  echo -e "NextCloudPi updated to version $VER"
+  exit 0
+} # force to read the whole thing into memory, as its contents might change in update.sh
