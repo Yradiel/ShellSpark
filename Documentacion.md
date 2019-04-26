@@ -4,3 +4,4 @@
 ## Documentacion sobre RubberDucky
 #### https://hackaday.com/2016/10/28/duckhunting-stopping-rubber-ducky-attacks/
 #### https://null-byte.wonderhowto.com/how-to/automate-hacking-raspberry-pi-with-usb-rubber-ducky-0177088/
+#### https://null-byte.wonderhowto.com/how-to/load-use-keystroke-injection-payloads-usb-rubber-ducky-0176829/
