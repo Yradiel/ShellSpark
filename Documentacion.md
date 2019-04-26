@@ -2,6 +2,8 @@
 #### https://ugeek.github.io/blog/post/2019-01-06-nextcloudpi.-nextcloud-en-raspbian-con-docker.html
 #### https://www.redeszone.net/2017/06/13/nextcloudpi-docker-instala-y-utiliza-nextcloud-en-tu-raspberry-pi-gracias-a-docker/
 ## Documentacion sobre RubberDucky
-#### https://hackaday.com/2016/10/28/duckhunting-stopping-rubber-ducky-attacks/
 #### https://null-byte.wonderhowto.com/how-to/automate-hacking-raspberry-pi-with-usb-rubber-ducky-0177088/
 #### https://null-byte.wonderhowto.com/how-to/load-use-keystroke-injection-payloads-usb-rubber-ducky-0176829/
+## Documentación sobre prevenir el ataque usb
+#### https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/usbview
+#### https://hackaday.com/2016/10/28/duckhunting-stopping-rubber-ducky-attacks/
