@@ -4,13 +4,13 @@ Vamos a habilitar SSH y elegir la distribución de teclado con el comando
 
  `raspi-config`
 
-![Image 2](C:\Users\Rober\Pictures\RASPBERRY\Image 2.png)
+![Image 2](Image 2.png)
 
-![Image 3](C:\Users\Rober\Pictures\RASPBERRY\Image 3.png)![Image 1](C:\Users\Rober\Pictures\RASPBERRY\Image 1.png)Ejecutamos para descargar Docker y posteriormente usarlo para desplegar nextcloud.
+![Image 3](Image 3.png)![Image 1](C:\Users\Rober\Pictures\RASPBERRY\Image 1.png)Ejecutamos para descargar Docker y posteriormente usarlo para desplegar nextcloud.
 
 `sudo curl -sSL https://get.docker.com/ | sh`
 
-![Image 5](C:\Users\Rober\Pictures\RASPBERRY\Image 5.png)
+![Image 5](Image 5.png)
 
 Ahora vamos a instalar python-pip y python3-pip
 
@@ -24,7 +24,7 @@ Tras esto lanzaremos el siguiente comando para montar NextCloudPi en Docker ARM.
 
 `docker run -d -p 4443:4443 -p 443:443 -p 80:80 -v ncdata:/data --name nextcloudpi ownyourbits/nextcloudpi-armhf $DOMAIN`
 
-![Image 6](C:\Users\Rober\Pictures\RASPBERRY\Image 6.png)
+![Image 6](Image 6.png)
 
 El usuario es ncp
 
@@ -34,7 +34,7 @@ La contraseña  para https://nextcloudpi.local es: 123abc.123abc.
 
 Ahora vamos a desactivar el funcionamiento exclusivo por https:
 
-![Image 7](C:\Users\Rober\Pictures\RASPBERRY\Image 7.png)
+![Image 7](Image 7.png)
 
 Para descargar desde powershell: `Start-BitsTransfer http://192.168.1.11/index.php/s/m3HQMpYZBZewB8N/download -Destination ./DESCARGABERRY`
 
