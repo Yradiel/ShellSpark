@@ -28,9 +28,9 @@ Tras esto lanzaremos el siguiente comando para montar NextCloudPi en Docker ARM.
 
 El usuario es ncp
 
-La contraseña para https://nextcloudpi.local:4443 es: 123abc.123abc.
+La contraseña para https://nextcloudpi.local:4443 es: xxxxxxxxxxxxxx
 
-La contraseña  para https://nextcloudpi.local es: 123abc.123abc.
+La contraseña  para https://nextcloudpi.local es: xxxxxxxxxxxxxx
 
 Ahora vamos a desactivar el funcionamiento exclusivo por https:
 
