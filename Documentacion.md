@@ -14,3 +14,5 @@
 ## Documentación sobre ataques por USB
 #### https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads
 #### https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload--Fast-Meterpreter
+#### https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload---download-mimikatz%2C-grab-passwords-and-email-them-via-gmail
+#### https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload---WiFun-v1.1
