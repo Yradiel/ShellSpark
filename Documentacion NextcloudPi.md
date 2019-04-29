@@ -38,3 +38,6 @@ Ahora vamos a desactivar el funcionamiento exclusivo por https:
 
 Para descargar desde powershell: `Start-BitsTransfer http://192.168.1.11/index.php/s/m3HQMpYZBZewB8N/download -Destination ./DESCARGABERRY`
 
+También vamos a definir los dominios de confianza de nuestro NextcloudPi:
+
+![Image 9](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY/Image%209.png)
