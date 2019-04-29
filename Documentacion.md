@@ -23,4 +23,4 @@
 #### https://ducktoolkit.com/payload/windows (Creador de código personalizado Online)
 ## Documentación sobre BadUSB
 #### https://www.quora.com/Which-USB-drives-contain-Phison-2251-03-2303-controller-type
-#### 
+#### https://null-byte.wonderhowto.com/how-to/make-your-own-bad-usb-0165419/
