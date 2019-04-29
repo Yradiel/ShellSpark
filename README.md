@@ -10,3 +10,6 @@ Podemos automatizar tareas o realizar un ataque para hacer esta prueba.
 
 ## Escenario 1
 ![Imagen del escenario 1](https://github.com/Yradiel/ProyectoPi/blob/master/Escenario%201.png)
+
+## Escenario 2
+![Imagen del escenario 1](https://github.com/Yradiel/ProyectoPi/blob/master/Escenario%202.png)
