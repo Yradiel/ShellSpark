@@ -21,3 +21,6 @@
 #### https://github.com/CedArctic/digiQuack
 #### https://github.com/toxydose/Duckyspark
 #### https://ducktoolkit.com/payload/windows (Creador de código personalizado Online)
+## Documentación sobre BadUSB
+#### https://www.quora.com/Which-USB-drives-contain-Phison-2251-03-2303-controller-type
+#### 
