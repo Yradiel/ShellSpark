@@ -12,4 +12,5 @@
 #### https://hackaday.com/2016/10/28/duckhunting-stopping-rubber-ducky-attacks/
 #### https://www.nirsoft.net/utils/usb_devices_view.html
 ## Documentación sobre ataques por USB
+#### https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads
 #### https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload--Fast-Meterpreter
