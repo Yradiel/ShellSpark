@@ -6,7 +6,7 @@ Vamos a habilitar SSH y elegir la distribución de teclado con el comando
 
 ![Image 2](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY/Image%202.png)
 
-![Image 3](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY/Image%203.png)![Image 1](C:\Users\Rober\Pictures\RASPBERRY\Image 1.png)Ejecutamos para descargar Docker y posteriormente usarlo para desplegar nextcloud.
+![Image 3](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY/Image%203.png)![Image 1](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY/Image%201.png)Ejecutamos para descargar Docker y posteriormente usarlo para desplegar nextcloud.
 
 `sudo curl -sSL https://get.docker.com/ | sh`
 
