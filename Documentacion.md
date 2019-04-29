@@ -10,3 +10,4 @@
 ## Documentación sobre prevenir el ataque usb
 #### https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/usbview
 #### https://hackaday.com/2016/10/28/duckhunting-stopping-rubber-ducky-attacks/
+#### https://www.nirsoft.net/utils/usb_devices_view.html
