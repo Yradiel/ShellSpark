@@ -16,3 +16,8 @@
 #### https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload--Fast-Meterpreter
 #### https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload---download-mimikatz%2C-grab-passwords-and-email-them-via-gmail
 #### https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload---WiFun-v1.1
+## Documentación sobre compilar scripts en Digispark
+#### https://seytonic.com/ducky/ (Online)
+#### https://github.com/CedArctic/digiQuack
+#### https://github.com/toxydose/Duckyspark
+#### https://ducktoolkit.com/payload/windows (Creador de código personalizado Online)
