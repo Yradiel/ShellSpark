@@ -2,8 +2,11 @@ En el siguiente enlace se encuentra una página de creación de Scripts para Rub
 https://ducktoolkit.com/payload/windows
  
 Las tareas a realizar en el Script se organizan en 3 fases:
+
 •	Reconocimiento
+
 •	Explotación
+
 •	Reporte
 
 Para poder crear el Script hay que seleccionar la opción deseada en cada apartado.
@@ -13,9 +16,13 @@ Se va a crear un Script de ejemplo en el que se reportará vía email el perfil 
 Y esto habilitará en la parte derecha de la página una sección por cada opción modificable.
 
 De arriba hacia abajo, hemos modificado lo siguiente:
+
 •	El retraso de escritura entre comandos será de 500 ms, y las variables globales serán de idioma Español.
+
 •	Se harán 4 capturas de pantalla.
+
 •	La Shell inversa irá sobre la IP seleccionada en el puerto 4443 elegido.
+
 •	El reporte vía email será desde el correo Email@enviador.com con contraseña “PasswordDeEnvio” hacia Email@receptor.com  usando el servidor de correo smtp.correo.com
 
 Tras seleccionar esto hay que ir a “Create Payload”.
