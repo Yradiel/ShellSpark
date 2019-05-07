@@ -1,4 +1,5 @@
 En el siguiente enlace se encuentra una página de creación de Scripts para RubberDucky:
+
 https://ducktoolkit.com/payload/windows
 
 ![](https://github.com/Yradiel/ProyectoPi/blob/master/DuckyFotos/ducky1.jpg)
