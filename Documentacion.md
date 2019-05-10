@@ -11,6 +11,8 @@
 #### https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/usbview
 #### https://hackaday.com/2016/10/28/duckhunting-stopping-rubber-ducky-attacks/
 #### https://www.nirsoft.net/utils/usb_devices_view.html
+#### https://www.fwhibbit.es/matando-al-patito-proteger-puertos-usb (Bloqueo con whitelist)
+#### https://www.solvetic.com/tutoriales/article/2935-como-bloquear-dispositivos-usb-en-el-dominio-con-gpo/ (Con GPO)
 ## Documentación sobre ataques por USB
 #### https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads
 #### https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload--Fast-Meterpreter
