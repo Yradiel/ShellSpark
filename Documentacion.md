@@ -36,3 +36,7 @@
 #### https://underc0de.org/foro/criptografia-253/t28569/
 #### https://securityhacklabs.net/articulo/metasploit-y-windows-10-creando-un-payload-indetectable-evadiendo-software-antivirus
 #### https://github.com/trustedsec/unicorn
+## Documentación de Meterpreter
+#### https://underc0de.org/foro/hacking/curso-metasploit-part-4-definiciones-comandos-de-meterpreter/
+#### https://www.darkoperator.com/blog/2010/1/2/meterpreter-token-manipulation.html
+#### https://null-byte.wonderhowto.com/how-to/hack-like-pro-ultimate-command-cheat-sheet-for-metasploits-meterpreter-0149146/
