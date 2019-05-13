@@ -7,6 +7,7 @@
 #### https://null-byte.wonderhowto.com/how-to/load-use-keystroke-injection-payloads-usb-rubber-ducky-0176829
 ## Documentacion sobre Raspberry
 #### https://thepi.io/how-to-use-your-raspberry-pi-as-a-wireless-access-point/ 
+#### https://www.raspberrypi.org/
 ## Documentación sobre prevenir el ataque usb
 #### https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/usbview
 #### https://hackaday.com/2016/10/28/duckhunting-stopping-rubber-ducky-attacks/
