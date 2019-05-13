@@ -84,6 +84,4 @@ También haremos una regla en iptables para el POSTROUTING y después reiniciare
 
 ![](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY2/10.PNG)
 
-Si se quiere habilitar el punto de acceso tras iniciar el Sistema Operativo habría que ejecutar
-
-``Systemctl enable hostapd``
+Si se quiere habilitar el punto de acceso tras iniciar el Sistema Operativo habría que ejecutar ''Systemctl enable hostapd''
