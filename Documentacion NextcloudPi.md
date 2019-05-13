@@ -86,4 +86,4 @@ También haremos una regla en iptables para el POSTROUTING y después reiniciare
 
 Si se quiere habilitar el punto de acceso tras iniciar el Sistema Operativo habría que ejecutar
 
-´´´Systemctl enable hostapd´´´
+```Systemctl enable hostapd```
