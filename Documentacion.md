@@ -33,3 +33,4 @@
 ## Ocultación de Payloads
 #### https://underc0de.org/foro/hacking/t23851/
 #### https://underc0de.org/foro/criptografia-253/t28569/
+#### https://securityhacklabs.net/articulo/metasploit-y-windows-10-creando-un-payload-indetectable-evadiendo-software-antivirus
