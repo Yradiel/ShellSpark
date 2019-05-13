@@ -67,3 +67,23 @@ Se hará un backup de la configuración de dnsmasq y crearemos el nuevo fichero 
 Una vez configurado el dnsmasq se procede a configurar el hostapd
 
 ![](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY2/6-1.PNG)
+
+Ahora hay que indicar en el archivo de configuración por defecto de hostapd la ubicación de la configuración recientemente creada
+
+![](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY2/7.PNG)
+
+Ahora se debe comprobar el estado del servicio de hostapd
+
+![](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY2/8.PNG)
+
+Se habilitará el ip forwarding para que se pueda enrutar.
+
+![](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY2/9.PNG)
+
+También haremos una regla en iptables para el POSTROUTING y después reiniciaremos
+
+![](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY2/10.PNG)
+
+Si se quiere habilitar el punto de acceso tras iniciar el Sistema Operativo habría que ejecutar
+
+´´´Systemctl enable hostapd´´´
