@@ -2,7 +2,6 @@
 ______
 En este repositorio de GitHub vamos a almacenar los archivos necesarios para la instalación y configuración de Nexcloud en RaspberryPi con Docker.
 ______
-![Imagen de Portada](https://github.com/Yradiel/ShellSpark/blob/master/ShellSpark.png)
 
 ## Usos de RubberDucky y proteccion contra ataques
 Un nuevo posible enfoque para nuestro proyecto, es la securizacion de puertos USB contra ataques con RubberDucky. Para poder defendernos de esta tecnologia, tenemos que entenderla, a si que crearemos nuestro propio RubberDucky como parte del proyecto.
