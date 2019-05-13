@@ -41,3 +41,29 @@ Para descargar desde powershell: `Start-BitsTransfer http://192.168.1.11/index.p
 También vamos a definir los dominios de confianza de nuestro NextcloudPi:
 
 ![Image 9](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY/Image%209.png)
+
+Se va a configurar la Raspberry como punto de acceso, para ello descargamos hostapd y dnsmasq.
+
+![](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY2/1.PNG)
+
+Después de instalarlo vamos a parar los servicios y reiniciar.
+
+![](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY2/2.PNG)
+
+Configuramos una ip estática para el punto de acceso.
+
+![](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY2/3.PNG)
+
+Tras esto comprobamos el estado del servicio dhcpcd.
+
+![](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY2/4.PNG)
+
+Se hará un backup de la configuración de dnsmasq y crearemos el nuevo fichero de configuración.
+
+![](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY2/4-5.PNG)
+
+![](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY2/5.PNG)
+
+Una vez configurado el dnsmasq se procede a configurar el hostapd
+
+![](https://github.com/Yradiel/ProyectoPi/blob/master/RASPBERRY2/6-1.PNG)
