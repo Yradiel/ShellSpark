@@ -8,7 +8,7 @@ Un nuevo posible enfoque para nuestro proyecto, es la securizacion de puertos US
 Podemos automatizar tareas o realizar un ataque para hacer esta prueba.
 
 ## Escenario 1
-![Imagen del escenario 1](https://github.com/Yradiel/ProyectoPi/blob/master/Escenario%201.png)
+![Imagen del escenario 1](https://github.com/Yradiel/ShellSpark/blob/master/Escenario%201.png)
 
 ## Escenario 2
-![Imagen del escenario 1](https://github.com/Yradiel/ProyectoPi/blob/master/Escenario%202.png)
+![Imagen del escenario 1](https://github.com/Yradiel/ShellSpark/blob/master/Escenario%202.png)
