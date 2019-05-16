@@ -15,6 +15,7 @@
 #### https://www.fwhibbit.es/matando-al-patito-proteger-puertos-usb (Bloqueo con whitelist)
 #### https://www.solvetic.com/tutoriales/article/2935-como-bloquear-dispositivos-usb-en-el-dominio-con-gpo/ (Con GPO)
 ## Documentación sobre ataques por USB
+#### https://thehackerway.com/2017/07/10/badusb-ultra-low-cost/
 #### https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads
 #### https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload--Fast-Meterpreter
 #### https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload---download-mimikatz%2C-grab-passwords-and-email-them-via-gmail
