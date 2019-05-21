@@ -16,6 +16,7 @@
 #### https://www.solvetic.com/tutoriales/article/2935-como-bloquear-dispositivos-usb-en-el-dominio-con-gpo/ (Con GPO)
 #### http://syncstop.com/ (USB Condom)
 ## Documentación sobre ataques por USB
+#### https://usbninja.com/
 #### http://www.elladodelmal.com/2017/07/arducky-un-rubber-ducky-hecho-sobre.html
 #### https://thehackerway.com/2017/07/10/badusb-ultra-low-cost/
 #### https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads
