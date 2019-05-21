@@ -32,6 +32,7 @@
 #### https://www.quora.com/Which-USB-drives-contain-Phison-2251-03-2303-controller-type
 #### https://null-byte.wonderhowto.com/how-to/make-your-own-bad-usb-0165419/
 ## Documentación sobre creación de Payload
+#### https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfvenom
 #### https://www.flu-project.com/2012/08/msfvenom-la-cosa-va-de-payloads-y_28.html
 #### https://underc0de.org/foro/hacking/curso-metasploit-part-5-hablemos-de-msfvenom/
 #### https://underc0de.org/foro/hacking/curso-metasploit-part-5-1-creando-un-paylodad-basico/
