@@ -14,4 +14,4 @@ Podemos automatizar tareas o realizar un ataque para hacer esta prueba.
 ![Imagen del escenario 2](https://github.com/Yradiel/ShellSpark/blob/master/Escenario%202.png)
 
 ## Escenario Demo
-![Imagen del escenario de la Demo](https://github.com/Yradiel/ShellSpark/blob/master/Escenario%20Demo.png)
+![Imagen del escenario de la Demo](https://github.com/Yradiel/ShellSpark/blob/master/Escenario%20Demo%20LAN.png)
