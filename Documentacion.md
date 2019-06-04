@@ -36,6 +36,7 @@
 #### https://www.flu-project.com/2012/08/msfvenom-la-cosa-va-de-payloads-y_28.html
 #### https://underc0de.org/foro/hacking/curso-metasploit-part-5-hablemos-de-msfvenom/
 #### https://underc0de.org/foro/hacking/curso-metasploit-part-5-1-creando-un-paylodad-basico/
+#### https://null-byte.wonderhowto.com/how-to/hacking-windows-10-create-undetectable-payload-part-1-bypassing-antivirus-software-0185055/
 ## Ocultación de Payloads
 #### https://underc0de.org/foro/hacking/t23851/
 #### https://underc0de.org/foro/criptografia-253/t28569/
